@@ -1,0 +1,14 @@
+name: Public source checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests (no private assets or CK3)
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Audit and prepare public source
+        run: python tools/prepare_public_release.py

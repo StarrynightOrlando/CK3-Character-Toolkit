@@ -1,0 +1,8 @@
+{
+  "python": "C:/Path/To/python.exe",
+  "blender": "C:/Path/To/Blender/blender.exe",
+  "pdx_tools": "C:/Path/To/ExporterParent",
+  "game": "C:/Path/To/Crusader Kings III/game",
+  "mod_root": "C:/Users/YOUR_NAME/Documents/Paradox Interactive/Crusader Kings III/mod",
+  "storage_root": "E:/CK3CharacterData"
+}

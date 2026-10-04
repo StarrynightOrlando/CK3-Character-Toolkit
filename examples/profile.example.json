@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "my_avatar",
+  "display_name": "My prepared character",
+  "adapter": "character",
+  "prepared_blend": "C:/MyAssets/avatar_prepared.blend",
+  "reference_mod": "C:/MyAssets/prepared_reference_mod",
+  "reference_slot": "avatar",
+  "exclude_shapes": [],
+  "add_reference_helpers": [],
+  "stance": {
+    "enabled": false
+  },
+  "author_notes": [
+    "先按 docs/PREPARED_REFERENCE.md 建立准备输入。站姿试验默认关闭；游戏验收由用户执行。"
+  ]
+}
